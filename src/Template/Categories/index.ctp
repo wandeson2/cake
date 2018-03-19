@@ -4,14 +4,14 @@
  * @var \App\Model\Entity\Category[]|\Cake\Collection\CollectionInterface $categories
  */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<!-- <nav class="large-3 medium-4 columns" id="actions-sidebar">
     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>
         <li><?= $this->Html->link(__('New Category'), ['action' => 'add']) ?></li>
         <li><?= $this->Html->link(__('List Articles'), ['controller' => 'Articles', 'action' => 'index']) ?></li>
         <li><?= $this->Html->link(__('New Article'), ['controller' => 'Articles', 'action' => 'add']) ?></li>
     </ul>
-</nav>
+</nav> -->
 <div class="actions large-2 medium-3 columns">
     <h3><?= __('Actions') ?></h3>
     <ul class="side-nav">
