@@ -14,7 +14,7 @@ use Cake\Event\Event;
  */
 class UsersController extends AppController
 {
-
+    
     /**
      * Index method
      *

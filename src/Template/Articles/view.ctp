@@ -3,6 +3,7 @@
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Article $article
  */
+
 ?>
 <nav class="large-3 medium-4 columns" id="actions-sidebar">
     <ul class="side-nav">
@@ -32,6 +33,7 @@
             <th scope="row"><?= __('Modified') ?></th>
             <td><?= h($article->modified) ?></td>
         </tr>
+        
     </table>
     <div class="row">
         <h4><?= __('Body') ?></h4>

@@ -8,11 +8,11 @@ a:hover {
 }
 
 a {
-    color: #1798A5;
+    color: #0c0e0e;
 }
 
 .side-nav li a:not(.button) {
-    color: #15848F;
+    color: #0c0e0e;
 }
 
 .side-nav li a:not(.button):hover {
@@ -319,11 +319,11 @@ pre {
 }
 
 .top-bar.expanded .title-area {
-    background: #01545b;
+    background: #69818c;
 }
 
 .top-bar.expanded, .top-bar,.top-bar-section ul li,.top-bar-section li:not(.has-form) a:not(.button) {
-    background: #116d76;
+    background: #69818c;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -332,7 +332,7 @@ pre {
 }
 
 .side-nav li.heading {
-    color: #1798A5;
+    color: #0c0e0e;
     font-size: 0.875rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -499,7 +499,7 @@ div.message.hidden {
 }
 
 .content h3 {
-    color: #be140b;
+    color: #0c0e0e;
     padding-bottom: 0.5rem;
     margin-bottom: 20px;
 }

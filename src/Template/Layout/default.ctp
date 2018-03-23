@@ -13,7 +13,7 @@
  * @license       https://opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
+$cakeDescription = 'Meu projeto';
 ?>
 <!DOCTYPE html>
 <html>
@@ -40,10 +40,14 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 <h1><a href=""><?= $this->fetch('title') ?></a></h1>
             </li>
         </ul>
+
         <div class="top-bar-section">
             <ul class="right">
                 <li><a target="_blank" href="https://book.cakephp.org/3.0/">Documentation</a></li>
-                <li><a target="_blank" href="https://api.cakephp.org/3.0/">API</a></li>
+                <li><a target="_blank" href="http://localhost:8765/users/login?redirect=%2Fcategories%2Fadd">Login</a></li>
+                <li><a type="_blank" <?= $this->Html->link(__('logout'), ['controller'=>' users', 'action' =>'logout'])?> </a>
+                 </li>
+                
             </ul>
         </div>
     </nav>
